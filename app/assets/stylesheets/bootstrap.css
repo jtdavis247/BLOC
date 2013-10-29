@@ -3252,6 +3252,7 @@ input[type="button"].btn-block {
 }
 
 .dropdown-menu.pull-right {
+
   right: 0;
   left: auto;
 }
@@ -6215,6 +6216,8 @@ body.modal-open,
 
 .pull-right {
   float: right !important;
+  padding-right:60px;
+  padding-top:15px;
 }
 
 .pull-left {
