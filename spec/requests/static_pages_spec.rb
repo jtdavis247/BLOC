@@ -2,16 +2,12 @@ require 'spec_helper'
 
 describe "Static pages" do
 
-  describe "Home page" do
-it "should have the base title" do
-      visit '/static_pages/home'
-      page.should have_selector('title',
-                        :text => "Learn Game Development Now")
-    end
+ subject { page }
 
-    it "should not have a custom page title" do
-      visit '/static_pages/home'
-      page.should_not have_selector('title', :text => '| Home')
-    end
+  describe "Home page" do
+    before { visit root_path }
+    it { should have_selector('title', text: full_title('')) }
+    it { should_not have_selector 'title', text: '| Home' }
   end
+
 end
