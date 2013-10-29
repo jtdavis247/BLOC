@@ -5,7 +5,7 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
-   <title>Learn Game Development Now | <%= yield(:title) %></title>
+   <title><%= full_title(yield(:title)) %></title>
     <%= stylesheet_link_tag    "style", :media => "all" %>
   <%= javascript_include_tag "ga" %>
   <%= javascript_include_tag "helper" %>
@@ -43,11 +43,13 @@
       <script src="../../assets/js/html5shiv.js"></script>
       <script src="../../assets/js/respond.min.js"></script>
     <![endif]-->
+    <%= render 'layouts/shim' %>
 </head>
 <body>
+	<%= render 'layouts/header' %>
 
 <%= yield %>
-
+<%= render 'layouts/footer' %>
 <script src="../../assets/js/jquery.js"></script>
     <script src="../../dist/js/bootstrap.min.js"></script>
     <script src="offcanvas.js"></script>
