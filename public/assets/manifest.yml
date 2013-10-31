@@ -17,6 +17,8 @@ modernizr.custom.js: modernizr.custom-d8256539cf994d11984b6d35ea013311.js
 modernizr/index.custom.js: modernizr.custom-d8256539cf994d11984b6d35ea013311.js
 plugins.js: plugins-28247337465625c36eac45851e0c9002.js
 plugins/index.js: plugins-28247337465625c36eac45851e0c9002.js
+script.js: script-c6e7d746b2eb67722d714c5c47d79249.js
+script/index.js: script-c6e7d746b2eb67722d714c5c47d79249.js
 webfont.js: webfont-43227a12d77ab99447338877cc2a2a12.js
 webfont/index.js: webfont-43227a12d77ab99447338877cc2a2a12.js
 wfl.js: wfl-ef1c794cb00c1271deb87ff7852c8051.js
