@@ -60,6 +60,16 @@ module BLOC
     config.assets.version = '1.0'
 
     config.assets.precompile += ['style.css']
+    config.assets.precompile += ['ga.js']
+    config.assets.precompile += ['helper.js']
+    config.assets.precompile += ['webfont.js']
+    config.assets.precompile += ['bootstrap.js']
+    config.assets.precompile += ['jquery.prep.js']
+    config.assets.precompile += ['jquert.min.js']
+    config.assets.precompile += ['modernizr.custom.js']
+    config.assets.precompile += ['plugins.js']
+    config.assets.precompile += ['wfl.js']
+    config.assets.precompile += ['bootstrap.css']
   end
 
 end
