@@ -11,6 +11,8 @@ ga.js: ga-a184780652b0b9fed2862069d2b2d04a.js
 ga/index.js: ga-a184780652b0b9fed2862069d2b2d04a.js
 helper.js: helper-04990aefaa36acec9471db819895469d.js
 helper/index.js: helper-04990aefaa36acec9471db819895469d.js
+jquery.min.js: jquery.min-ea931b372e17b78a12b9c7c19141ff43.js
+jquery/index.min.js: jquery.min-ea931b372e17b78a12b9c7c19141ff43.js
 modernizr.custom.js: modernizr.custom-d8256539cf994d11984b6d35ea013311.js
 modernizr/index.custom.js: modernizr.custom-d8256539cf994d11984b6d35ea013311.js
 plugins.js: plugins-28247337465625c36eac45851e0c9002.js
@@ -25,3 +27,5 @@ bootstrap.css: bootstrap-07ddf084f64140fb0af3a028460c9368.css
 bootstrap/index.css: bootstrap-07ddf084f64140fb0af3a028460c9368.css
 style.css: style-53cf12ca0a4ef852b4bde7b861dfc445.css
 style/index.css: style-53cf12ca0a4ef852b4bde7b861dfc445.css
+jquery.js: jquery-cb3c546a4be04739c4581adee5f8abe3.js
+jquery/index.js: jquery-cb3c546a4be04739c4581adee5f8abe3.js
