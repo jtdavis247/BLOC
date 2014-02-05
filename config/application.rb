@@ -72,6 +72,7 @@ module BLOC
     config.assets.precompile += ['wfl.js']
     config.assets.precompile += ['bootstrap.css']
     config.assets.precompile += ['script.js']
+    config.assets.initialize_on_precompile = false
   end
 
 end
